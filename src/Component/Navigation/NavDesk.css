@@ -1,0 +1,146 @@
+
+  @media screen and (min-width: 900px) {
+    .navigation {
+      height: 70px;
+      top:40px;
+      position: sticky;
+      background-color: #fff
+    }
+    .App-logo {
+      height:49px;
+    }
+    .fa-user-circle,
+    .fa-bookmark,
+    .fa-shopping-bag,
+    .fa-money-bill-alt,
+    .fa-bullhorn{
+      font-size: 13px;
+      color: #444;
+    }
+    .drop-down{
+      position: absolute;
+      width:90%;
+    }
+    .menu-div-one {
+      /* height: 28px; */
+    }
+    .menu-link-2{
+      text-decoration: none;
+      margin: 0px 10px;
+      font-size: 13px;
+      color: #444;
+      font-weight: 650;
+      letter-spacing: 1px;
+    }
+    .menu-link,
+    .drop-title,
+    .pr-container-des {
+      text-decoration: none;
+      margin: 0px 10px;
+      font-size: 11px;
+      color: #444;
+      font-weight: 650;
+      letter-spacing: 1px;
+    }
+    .menu-link:hover {
+      color: #f08080;
+      text-decoration: none;
+    }
+    .App-logo {
+      margin: 10px 0px 10px 30px;
+    }
+    .navigation {
+      display: flex;
+      justify-content:space-around;
+    }
+    .pr-container {
+      margin: auto 0px;
+      text-align: center;
+    }
+    .pr-container div {
+      display: inline-block;
+      margin: 0px 5px;
+    }
+    .search-box,
+    .search-btn {
+      height: 40px;
+    }
+    .search-section {
+      margin: auto 0px;
+    }
+    .label {
+      display: flex;
+    }
+    .search-box {
+      margin-top:10px;
+      width:600px;
+      outline: none;
+      border:2px solid #f5f5f6;
+      border-left: none;
+      padding: 0px 10px;
+      font-size:13px;
+    }
+    .fa-search{
+      cursor: pointer;
+      border:1px solid #f5f5f6;
+      color: #4444;
+      font-size:17px;
+      margin:25px 20px 0px 20px;
+    }
+    .srch-profile {
+      display: flex;
+      justify-content: space-around;
+    }
+    .drop-down {
+      top:145px;
+      border-top:3px solid #2992cc;
+      background-color: #fff;
+      margin: 0px 50px;
+      padding:10px;
+      border-bottom-left-radius: 5px;
+      border-bottom-right-radius: 5px;
+      display: none;
+      z-index:999;
+    }
+    .drop-title {
+      color: #2992cc;
+    }
+    .drop-title:hover {
+      color: #444;
+    }
+    .drop-des {
+      text-decoration: none;
+      display: block;
+      font-size: 13px;
+      color: #444;
+      font-weight: 600;
+      margin: 10px 0px 0px 10px;
+      text-align: left;
+    }
+    .drop-des:hover {
+      color: #f08080;
+    }
+    .drop-div {
+      width: 600px;
+      text-align: left;
+      z-index:999;
+    }
+    .drp-lst {
+      display: block;
+      margin: 10px 0px;
+      text-align: left;
+    }
+    .ddmf {
+      display: flex;
+      justify-content: space-around;
+    }
+    .ddms {
+      display: flex;
+      margin:10px 0px;
+    }
+    .pre-container-link-div:hover .fa-bookmark,
+    .pre-container-link-div:hover .fa-shopping-bag {
+      color: #f08080;
+    }
+  }
+  

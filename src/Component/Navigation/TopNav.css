@@ -1,0 +1,23 @@
+.top-nav{
+    height:45px;
+    background-color:rgb(181, 223, 99);
+    display: flex;
+    margin: auto 0px;
+    font-size:14px;
+    letter-spacing:1px;
+    color:#444;
+    justify-content:space-between;
+    padding:0px 30px;
+    position: sticky;
+    top:0;
+}
+.links-div{
+    margin: auto 0px;
+}
+.link{
+    margin: auto 10px;
+    color:#444;
+}
+.wlcm{
+    margin: auto 20px;
+}
